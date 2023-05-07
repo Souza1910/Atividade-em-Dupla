@@ -1,4 +1,38 @@
-img {
+body {
+  text-align: center;
+  }
   
+  header, footer {
+  background-color: #333333;
+  color: #000000;
+  padding: 3px;
+  }
+  
+  section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 50px;
+  }
+  
+  div {
+  flex: 1;
+  padding: 20px;
+  }
+  
+  #imagem {
   width: 250px;
-}
+  height: 250px;
+  background-size: 250px;
+  background-repeat: no-repeat;
+  background-position: center;
+  }
+  
+  #texto {
+  font-size: 20px;
+  }
+  
+  footer p {
+  font-style: italic;
+  }
