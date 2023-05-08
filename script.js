@@ -1,4 +1,4 @@
-const textos = ['Imagem 1', 'Imagem 2', 'Imagem 3']
+/*const textos = ['Imagem 1', 'Imagem 2', 'Imagem 3']
 
 const imagens = ['img1.png', 'img2.png', 'img3.png']
 
@@ -24,3 +24,12 @@ function trocaTexto() {
 }
 
 setInterval(trocaTexto, 2000)
+
+function trocarImagem() {
+  var imagem = document.getElementById('imagem')
+  if (imagem.src.match('img1.png')) {
+    imagem.src = 'img2.png'
+  } else {
+    imagem.src = 'img1.png'
+  }
+}*/
